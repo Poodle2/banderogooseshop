@@ -1,5 +1,4 @@
 export default function ListOfBrandBenefits(props) {
-    console.log(props.img)
     return (
         <div className='ListOfBrandBenefits'>
 

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.MainPageOfTheSite {
+  max-width: 1440px;
+  width: 1280px;
+  height: 800px;
+  background: linear-gradient(134deg, #ECF8FF 0%, #7FC1F0 100%);
+
+
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+
+
+    .logo {
+      text-align: left;
+      display: flex;
+      align-items: center;
+      padding-left: 100px;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      padding: 8px 100px 0 0;
+
+      .pointNav {
+        list-style-type: none;
+        text-align: right;
+        margin-left: -90px;
+        left: auto;
+        right: 0;
+
+        li {
+          margin: 0 5px 24px 0;
+          padding: 0;
+          list-style: none;
+          display: inline-block;
+        }
+
+        a {
+          padding: 3px 12px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .HomePage {
+    display: flex;
+    justify-content: space-between;
+
+    .mainСontent {
+      width: 533px;
+      height: 75px;
+      margin: 0;
+      padding: 200px 20px 0 100px;
+
+      h1 {
+        padding-top: 16px;
+      }
+
+      p {
+        padding: 24px 0 44px 0;
+      }
+
+      .homeButton {
+        display: flex;
+        height: 48px;
+        padding: 0 32px;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 15px;
+        background: var(--unnamed, #FF6B0A);
+        color: var(--unnamed, #FFF);
+        font-size: 20px;
+        font-style: normal;
+      }
+    }
+  }
+}
+
+

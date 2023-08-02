@@ -1,19 +1,21 @@
 import socks from "./img/socks.svg";
-function HomePage () {
+
+function HomePage() {
     return (
         <div className='HomePage'>
-            <div>
+            <div className='mainСontent'>
                 <h2>Благодійний мерч</h2>
-                <h1>Бандерогусь –
-                    за сраку орків кусь</h1>
-                <p>Інвестуй у стильний гардероб, перемогу України та бавовну тим, хто вапщє нє хочєт атсюда
+                <h1>Бандерогусь – за сраку орків кусь</h1>
+                <p>Інвестуй у стильний гардероб, перемогу України та бавовну тим, хто вапщє нє хочєт
+                    атсюда
                     уєзжать,
                     бо
                     тут так класна, как в свайом домє</p>
-                <button>Інвестувати у бавовну</button>
+                <button className='homeButton'>Інвестувати у бавовну</button>
             </div>
-            <img src={socks} alt='socks'/>
+            <img className='socks' src={socks} alt='socks' align='right'/>
         </div>
     )
 }
+
 export default HomePage

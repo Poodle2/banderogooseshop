@@ -1,4 +1,4 @@
-function ProductCart(props) {
+export default function ProductCart(props) {
 
     return (
         <div className='ProductCart'>
@@ -11,4 +11,3 @@ function ProductCart(props) {
         </div>
     )
 }
-export default ProductCart
