@@ -3,10 +3,11 @@ import bavovna from "./img/advantagesIcons/bavovna.svg";
 import goose from "./img/advantagesIcons/goose.svg";
 import roket from "./img/advantagesIcons/roket.svg";
 import truzyb from "./img/advantagesIcons/truzyb.svg";
+import style from './Advantages.module.scss'
 
 export default function Advantages() {
     return (
-        <div className='Advantages'>
+        <div className={style.Advantages}>
             <h3>Переваги</h3>
             <ListOfBrandBenefits img={bavovna} name='100% бавовна'
                                  text='Тобі буде спекотно у прохолодну погоду.

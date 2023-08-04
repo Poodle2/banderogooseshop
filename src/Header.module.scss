@@ -1,0 +1,43 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+
+
+  .logo {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    padding: 8px 100px 0 0;
+
+    .pointNav {
+      list-style-type: none;
+      text-align: right;
+      margin-left: -90px;
+      left: auto;
+      right: 0;
+
+      li {
+        margin: 0 5px 24px 0;
+        padding: 0;
+        list-style: none;
+        display: inline-block;
+      }
+
+      a {
+        color: var(--unnamed, #161616);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        padding: 3px 12px;
+        text-decoration: none;
+      }
+    }
+  }
+}

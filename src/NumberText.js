@@ -1,8 +1,12 @@
+import style from './NumberText.module.scss'
+
 export default function NumberText(props) {
     return (
-        <div className='NumberText'>
-            <h2>{props.number}</h2>
-            <p>{props.text}</p>
+        <div className={style.NumberText}>
+            <div className='a'>
+                <h1>{props.number}</h1>
+                <p>{props.text}</p>
+            </div>
         </div>
     )
 }

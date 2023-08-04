@@ -1,0 +1,41 @@
+.TheFirstBlockOfInformation {
+  margin-left: 120px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  background: var(--unnamed, #FFC59E);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  width: 1070px;
+  height: 450px;
+
+  .flag {
+    display: flex;
+    justify-content: left;
+    padding-left: 44px;
+    margin-top: -91px;
+  }
+
+  .textBlock {
+    padding-top: 148px;
+    width: 498px;
+    height: auto;
+    padding-right: 48px;
+  }
+
+  h3 {
+    display: flex;
+    text-align: left;
+    padding-bottom: 32px;
+    margin: 0;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+}
