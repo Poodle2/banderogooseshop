@@ -1,7 +1,7 @@
 import logo from './img/logo.svg'
 import style from './Header.module.scss'
 
-export default function sstartHeader() {
+export default function Header() {
     return (
         <header className={style.Header}>
             <img className={style.logo} src={logo} alt='logo' width={110} height={36}/>
