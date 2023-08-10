@@ -6,7 +6,6 @@
   background: var(--unnamed, #FFC59E);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   width: 1070px;
-  height: 450px;
 
   .flag {
     display: flex;
@@ -17,8 +16,7 @@
 
   .textBlock {
     padding-top: 148px;
-    width: 498px;
-    height: auto;
+    width: min(100% - 2rem, 498px);
     padding-right: 48px;
   }
 

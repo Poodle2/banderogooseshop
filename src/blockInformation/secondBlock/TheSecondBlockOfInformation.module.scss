@@ -1,33 +1,29 @@
 .TheSecondBlockOfInformation {
-  margin-left: 120px;
-  margin-top: 94px;
+  margin: 90px 0 0 120px;
   display: flex;
   justify-content: space-between;
   border-radius: 20px;
   background: var(--unnamed, #ECF8FF);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   width: 1070px;
-  height: 450px;
 
   .people {
-    margin-top: -34px;
+    margin-top: -26px;
     display: flex;
     justify-content: right;
   }
 
   .textBlock {
-    margin-left: 120px;
-    padding-top: 148px;
-    width: 498px;
-    height: auto;
-    padding-right: 46px;
+    margin-left: 110px;
+    padding: 148px 46px;
+    width: min(100% - 2rem, 498px);
+
   }
 
   h3 {
     display: flex;
     text-align: left;
     padding-bottom: 32px;
-    margin: 0;
     font-size: 34px;
     font-style: normal;
     font-weight: 700;

@@ -3,8 +3,7 @@
   justify-content: space-between;
 
   .mainСontent {
-    width: 533px;
-    height: 75px;
+    width: min(100% - 2rem, 533px);
     margin: 0;
     padding: 180px 20px 0 100px;
 
@@ -32,17 +31,15 @@
     }
 
     .homeButton {
-      display: flex;
       height: 48px;
       padding: 0 32px;
-      justify-content: center;
       align-items: center;
       border: none;
-      border-radius: 15px;
-      background: var(--unnamed, #FF6B0A);
       color: var(--unnamed, #FFF);
       font-size: 20px;
       font-style: normal;
+      border-radius: 15px;
+      background: var(--unnamed, #FF6B0A);
       box-shadow: 0 4px 4px 0 rgba(22, 22, 22, 0.15);
     }
   }

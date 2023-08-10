@@ -2,6 +2,7 @@
   padding-top: 40px;
 
   .pointsName {
+    color: var(--unnamed, #161616);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -9,13 +10,13 @@
   }
 
   p {
+    color: var(--unnamed, #161616);
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
   }
 
   img {
-    padding-top: 12px;
-    padding-right: 32px;
+    padding: 12px 32px;
   }
 }
