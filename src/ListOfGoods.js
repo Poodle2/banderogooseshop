@@ -3,6 +3,7 @@ import cartShorts from "./img/cartItem/cardShorts.svg";
 import cartSocs from "./img/cartItem/cardSocs.svg";
 import cartPhone from "./img/cartItem/cardPhone.svg";
 import cartShirt from "./img/cartItem/cardShirt.svg";
+import style from './ListOfGoods.module.scss'
 
 function ListOfGoods() {
     const productCarts = [
@@ -13,13 +14,14 @@ function ListOfGoods() {
     ]
 
     return (
-        <div className='ListOfGoods'>
+        <div className={style.ListOfGoods}>
             {
                 productCarts.map(productCart =>
-                        <ProductCart image={productCart.imgURL}
-                             nameProduct={productCart.nameProduct}
-                             price={productCart.price}
-                             key={productCart.id}/>
+                    <ProductCart
+                        image={productCart.imgURL}
+                        nameProduct={productCart.nameProduct}
+                        price={productCart.price}
+                        key={productCart.id}/>
                 )
             }
         </div>

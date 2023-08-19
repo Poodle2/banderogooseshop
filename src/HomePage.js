@@ -11,7 +11,7 @@ export default function HomePage() {
                     хто вапщє нє хочєт атсюда уєзжать, бо тут так класна, как в свайом домє</p>
                 <button className={style.homeButton}>Інвестувати у бавовну</button>
             </div>
-            <img className='socks' src={socks} alt='socks' align='right'/>
+            <img className={style.socks} src={socks} alt='socks' align='right'/>
         </div>
     )
 }

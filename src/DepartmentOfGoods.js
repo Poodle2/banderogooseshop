@@ -1,8 +1,9 @@
 import ListOfGoods from "./ListOfGoods";
+import style from './DepartmentOfGoods.module.scss'
 function DepartmentOfGoods() {
     return (
-        <div className='DepartmentOfGoods'>
-            <h3>Обери товар</h3>
+        <div className={style.DepartmentOfGoods}>
+            <h2 className={style.title}>Обери товар</h2>
            <ListOfGoods/>
         </div>
     )

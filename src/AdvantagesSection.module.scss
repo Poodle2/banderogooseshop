@@ -1,11 +1,11 @@
 .AdvantagesSection {
+  width: 1280px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 90px;
-  padding-left: 120px;
 
   .tShirt {
     margin: 0;
-    padding: 0;
+    padding-left: 120px;
   }
 }

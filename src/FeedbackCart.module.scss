@@ -1,0 +1,35 @@
+.FeedbackCart {
+  padding: 24px;
+  margin: 12px 12px 0 12px;
+  width: 242px;
+  height: 300px;
+  border-radius: 20px;
+  background: var(--unnamed, #ECF8FF);
+
+  h4 {
+    padding: 16px 0 0 22px;
+    display: flex;
+    align-items: end;
+    width: min(100% - 2rem, 120px);
+    color: var(--unnamed, #161616);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 22.4px */
+  }
+
+  p {
+    padding: 16px 12px 12px 12px;
+    width: min(100% - 2rem, 300px);
+    color: var(--unnamed, #161616);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 21px */
+  }
+
+  img {
+    padding-right: 20px;
+  }
+}

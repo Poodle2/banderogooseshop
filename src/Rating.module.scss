@@ -1,0 +1,11 @@
+.Rating {
+  display: flex;
+  justify-content: center;
+
+  input[type=radio] {
+    display: none;
+  }
+  .star {
+    margin-right: 6px;
+  }
+}

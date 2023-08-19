@@ -6,8 +6,7 @@ import DepartmentOfGoods from "./DepartmentOfGoods";
 import Respond from "./Respond";
 import ContactDetailsAndApplicationForm from "./ContactDetailsAndApplicationForm";
 
-
-function App() {
+export default function App() {
     return (
         <div className="App">
             <MainPage/>
@@ -19,5 +18,3 @@ function App() {
             <ContactDetailsAndApplicationForm/>
         </div>);
 }
-
-export default App;

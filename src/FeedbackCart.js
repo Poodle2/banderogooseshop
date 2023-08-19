@@ -1,11 +1,13 @@
+import Rating from "./Rating";
+import style from './FeedbackCart.module.scss'
 
-function FeedbackCart(props) {
+export default function FeedbackCart({name, image, text, ratingId}) {
     return (
-        <div className='FeedbackCart'>
-            <img src={props.avatar} alt='avatarWomenOne'/>
-            <h4>{props.name}</h4>
-            <p>{props.text}</p>
+        <div className={style.FeedbackCart}>
+            <img src={image} alt='avatar' align='left' width={50} height={50}/>
+            <Rating ratingId1={ratingId}/>
+            <h4>{name}</h4>
+            <p>{text}</p>
         </div>
     )
 }
-export default FeedbackCart

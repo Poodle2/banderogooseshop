@@ -1,11 +1,12 @@
 .HomePage {
   display: flex;
   justify-content: space-between;
+  padding: 0 120px 0 120px;
 
   .mainСontent {
     width: min(100% - 2rem, 533px);
     margin: 0;
-    padding: 180px 20px 0 100px;
+    padding-top: 180px;
 
     h2 {
       color: var(--unnamed, #161616);
