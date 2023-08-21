@@ -8,7 +8,7 @@ import style from './Advantages.module.scss'
 export default function Advantages() {
     return (
         <div className={style.Advantages}>
-            <h3>Переваги</h3>
+            <h3 className={style.AdvantagesTitle}>Переваги</h3>
             <ListOfBrandBenefits img={bavovna} name='100% бавовна'
                                  text='Тобі буде спекотно у прохолодну погоду.
                                   Оркам теж буде спекотно, але є нюанс'/>

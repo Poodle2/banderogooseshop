@@ -1,10 +1,8 @@
 .Advantages {
-  padding: 28px 120px 0 80px;
   width: min(100% - 2rem, 450px);
 
-  h3 {
-    display: flex;
-    justify-content: left;
+  .AdvantagesTitle {
+    text-align: left;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;

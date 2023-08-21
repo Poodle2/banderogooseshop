@@ -1,5 +1,5 @@
 .ListOfBrandBenefits {
-  padding-top: 40px;
+  margin-top: 40px;
 
   .pointsName {
     color: var(--unnamed, #161616);
@@ -15,8 +15,7 @@
     font-style: normal;
     font-weight: 300;
   }
-
-  img {
-    padding: 12px 32px;
+  .ListOfBrandBenefitsImage {
+    margin: 8px 12px 0 0;
   }
 }

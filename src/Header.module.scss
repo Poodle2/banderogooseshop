@@ -1,40 +1,23 @@
-.Header {
-  display: flex;
-  justify-content: space-between;
-  padding: 24px 120px 0 120px;
+.header {
+  padding: 24px 120px 24px 120px;
 
-  .logo {
-    filter: drop-shadow(3px 3px 10px #FFFFFF);
-    text-align: left;
+  .headerTop {
     display: flex;
     align-items: center;
   }
 
+  .headerTopLogo {
+    filter: drop-shadow(3px 3px 10px #FFFFFF);
+    margin-right: 595px;
+  }
+
   .nav {
-    display: flex;
-    align-items: center;
-
-    .pointNav {
-      list-style-type: none;
-      text-align: right;
-      margin-left: -90px;
-      left: auto;
-
-      li {
-        margin: 0;
-        padding: 8px 5px 24px 0;
-        list-style: none;
-        display: inline-block;
-      }
-
-      a {
+      .navLink {
+        margin-right: 24px;
         color: var(--unnamed, #161616);
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        padding: 3px 12px;
-        text-decoration: none;
       }
-    }
   }
 }

@@ -1,26 +1,24 @@
 .HomePage {
   display: flex;
-  justify-content: space-between;
-  padding: 0 120px 0 120px;
+  align-items: center;
+  padding:0 10px 0 120px;;
 
-  .mainСontent {
-    width: min(100% - 2rem, 533px);
-    margin: 0;
-    padding-top: 180px;
+  .main {
+    width: min(100% - 2rem, 574px);
 
-    h2 {
+    .mainSubtitle {
       color: var(--unnamed, #161616);
       font-size: 22px;
       font-style: normal;
       font-weight: 700;
     }
 
-    h1 {
-      padding-top: 16px;
+    .mainTitle {
       color: var(--unnamed, #161616);
-      font-size: 44px;
+      font-size: 48px;
       font-style: normal;
       font-weight: 600;
+      justify-content: normal;
     }
 
     p {

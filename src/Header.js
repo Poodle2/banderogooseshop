@@ -3,15 +3,15 @@ import style from './Header.module.scss'
 
 export default function Header() {
     return (
-        <header className={style.Header}>
-            <img className={style.logo} src={logo} alt='logo' width={110} height={36}/>
-            <nav className={style.nav}>
-                <ul className={style.pointNav}>
-                    <li><a href='#'>Переваги</a></li>
-                    <li><a href='#'>Про товар</a></li>
-                    <li><a href='#'>Відгуки</a></li>
-                </ul>
-            </nav>
+        <header className={style.header}>
+            <div className={style.headerTop}>
+                <img className={style.headerTopLogo} src={logo} alt='logo' width={110} height={36}/>
+                <nav className={style.nav}>
+                        <a href='#' className={style.navLink}>Переваги</a>
+                        <a href='#' className={style.navLink}>Про товар</a>
+                        <a href='#' className={style.navLink}>Відгуки</a>
+                </nav>
+            </div>
         </header>
     )
 }
