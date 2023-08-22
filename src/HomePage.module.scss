@@ -11,6 +11,7 @@
       font-size: 22px;
       font-style: normal;
       font-weight: 700;
+      text-align: left;
     }
 
     .mainTitle {
@@ -18,10 +19,11 @@
       font-size: 48px;
       font-style: normal;
       font-weight: 600;
-      justify-content: normal;
+      text-align: left;
     }
 
     p {
+      text-align: left;
       padding: 24px 0 44px 0;
       color: var(--unnamed, #161616);
       font-size: 20px;

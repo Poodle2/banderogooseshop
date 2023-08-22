@@ -14,13 +14,14 @@
   }
 
   .textBlock {
-    padding-top: 148px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: min(100% - 2rem, 498px);
-    padding-right: 48px;
+    margin-right: 100px;
   }
 
   h3 {
-    display: flex;
     text-align: left;
     padding-bottom: 32px;
     margin: 0;
@@ -30,6 +31,7 @@
   }
 
   p {
+    text-align: left;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;

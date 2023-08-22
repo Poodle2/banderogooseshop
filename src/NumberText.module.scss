@@ -1,6 +1,5 @@
 .NumberText {
-  padding-top: 70px;
-  margin-right: 53px;
+  margin: 70px 53px 0 0 ;
 }
 
 h1 {
@@ -8,13 +7,11 @@ h1 {
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 p {
-  display: flex;
-  justify-content: center;
+ text-align: center;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;

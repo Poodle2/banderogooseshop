@@ -5,7 +5,7 @@ import style from './Respond.module.scss'
 export default function Respond() {
     return (
         <div className={style.Respond}>
-            <h3>Відгуки</h3>
+            <h3 className={style.respondTitle}>Відгуки</h3>
             <ArrowButton/>
             <CustomerFeedback/>
             <div className={style.leaveAReview}>

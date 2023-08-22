@@ -4,17 +4,17 @@
   background: var(--unnamed, #FFF);
   color: var(--unnamed, #161616);
 
-  h2 {
+  .digitalTitle {
     color: var(--unnamed, #161616);
     padding-bottom: 32px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 34px;
     font-style: normal;
     font-weight: 700;
   }
 
-  p {
+  .digitalSubtitle {
+    text-align: center;
     color: var(--unnamed, #161616);
     padding-bottom: 70px;
     font-size: 20px;
@@ -22,7 +22,7 @@
     font-weight: 500;
   }
 
-  .Digital {
+  .digital {
     display: flex;
     justify-content: center;
   }

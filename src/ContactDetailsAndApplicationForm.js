@@ -6,9 +6,13 @@ export default function ContactDetailsAndApplicationForm() {
     return (
         <footer className='ContactDetailsAndApplicationForm'>
             <h2>Зв’язатися з нами</h2>
-            <ApplicationForm/>
-            <Contacts/>
-            <SocialNetworks/>
+            <div className='footerContent'>
+                <ApplicationForm/>
+                <div className='footerContact'>
+                    <Contacts/>
+                    <SocialNetworks/>
+                </div>
+            </div>
         </footer>
     )
 }

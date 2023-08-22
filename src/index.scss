@@ -16,14 +16,18 @@ body {
   width: 1280px;
 
   h2 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 120px 0 80px 0;
     color: var(--unnamed, #161616);
     font-size: 34px;
     font-style: normal;
     font-weight: 700;
     line-height: 48px;
+  }
+
+  .footerContent{
+    display: flex;
+    justify-content: space-between;
   }
 
   .ApplicationForm {
@@ -54,16 +58,16 @@ body {
     .numberAndName {
       border-radius: 20px;
       border: 1.5px solid var(--unnamed, #0084FE);
-      width: 573px;
-      height: 50px;
+      width: 360px;
+      height: 36px;
       flex-shrink: 0;
     }
 
     .commentOnTheOrder {
       border-radius: 20px;
       border: 1.5px solid var(--unnamed, #0084FE);
-      width: 573px;
-      height: 100px;
+      width: 360px;
+      height: 56px;
       flex-shrink: 0;
     }
 
@@ -83,4 +87,7 @@ body {
       line-height: 25px; /* 125% */
     }
   }
-}
+
+  .footerContact {
+  }
+ }

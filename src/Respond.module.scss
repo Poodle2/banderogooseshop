@@ -1,14 +1,13 @@
 .Respond {
   width: 1280px;
 
-  h3 {
+  .respondTitle {
     padding: 100px 0 40px 0;
     color: var(--unnamed, #161616);
     font-size: 34px;
     font-style: normal;
     font-weight: 700;
-    display: flex;
-    justify-content: center;
+    text-align: center;
   }
 
   .leaveAReview {
