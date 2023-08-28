@@ -16,17 +16,17 @@
   }
 
   .buttonLeaveAReview {
+    text-align: center;
     border-radius: 15px;
     border: 0.5px solid var(--unnamed, #7F7F7F);
     background: #EEE;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
-    margin-top: 12px;
-    text-align: center;
-    width: 105px;
-    height: 20px;
+    margin-top: 24px;
+    width: 116px;
+    height: 24px;
     flex-shrink: 0;
     color: var(--unnamed, #7F7F7F);
-    font-size: 8px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 300;
     line-height: 140%; /* 11.2px */

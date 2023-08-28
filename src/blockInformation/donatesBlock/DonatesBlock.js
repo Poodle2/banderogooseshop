@@ -1,7 +1,7 @@
 import flag from "../../img/information/flag.svg";
-import style from './TheFirstBlockOfInformation.module.scss'
+import style from './DonatesBlock.module.scss'
 
-export default function TheFirstBlockOfInformation() {
+export default function DonatesBlock() {
     return (
         <div className={style.TheFirstBlockOfInformation}>
             <img className={style.flag} src={flag} alt='flag' width={546} height={541}/>

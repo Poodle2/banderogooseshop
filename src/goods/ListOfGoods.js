@@ -1,8 +1,8 @@
 import ProductCart from "./ProductCart";
-import cartShorts from "./img/cartItem/cardShorts.svg";
-import cartSocs from "./img/cartItem/cardSocs.svg";
-import cartPhone from "./img/cartItem/cardPhone.svg";
-import cartShirt from "./img/cartItem/cardShirt.svg";
+import cartShorts from "../img/cartItem/cardShorts.svg";
+import cartSocs from "../img/cartItem/cardSocs.svg";
+import cartPhone from "../img/cartItem/cardPhone.svg";
+import cartShirt from "../img/cartItem/cardShirt.svg";
 import style from './ListOfGoods.module.scss'
 
 function ListOfGoods() {

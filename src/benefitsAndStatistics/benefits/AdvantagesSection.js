@@ -1,4 +1,4 @@
-import tShirt from "./img/shirt.svg";
+import tShirt from "../../img/shirt.svg";
 import Advantages from "./Advantages";
 import style from './AdvantagesSection.module.scss'
 export default function AdvantagesSection () {

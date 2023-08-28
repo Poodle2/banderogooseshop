@@ -1,8 +1,8 @@
 import ListOfBrandBenefits from "./ListOfBrandBenefits";
-import bavovna from "./img/advantagesIcons/bavovna.svg";
-import goose from "./img/advantagesIcons/goose.svg";
-import roket from "./img/advantagesIcons/roket.svg";
-import truzyb from "./img/advantagesIcons/truzyb.svg";
+import bavovna from "../../img/advantagesIcons/bavovna.svg";
+import goose from "../../img/advantagesIcons/goose.svg";
+import roket from "../../img/advantagesIcons/roket.svg";
+import truzyb from "../../img/advantagesIcons/truzyb.svg";
 import style from './Advantages.module.scss'
 
 export default function Advantages() {

@@ -1,5 +1,5 @@
 import people from "../../img/information/people.svg";
-import style from './TheSecondBlockOfInformation.module.scss'
+import style from './StylesBlock.module.scss'
 
 export default function TheSecondBlockOfInformation() {
     return (

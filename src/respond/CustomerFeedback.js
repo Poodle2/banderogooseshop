@@ -1,8 +1,8 @@
 import FeedbackCart from "./FeedbackCart";
-import avatarWomenOne from "./img/avatar/avatarWomenOne.svg";
-import avatarMenTwo from "./img/avatar/avatarMenTwo.svg";
-import avatarMenOne from "./img/avatar/avatarMenOne.svg";
-import avatarWomenTwo from "./img/avatar/avatarWomenTwo.svg";
+import avatarWomenOne from "../img/avatar/avatarWomenOne.svg";
+import avatarMenTwo from "../img/avatar/avatarMenTwo.svg";
+import avatarMenOne from "../img/avatar/avatarMenOne.svg";
+import avatarWomenTwo from "../img/avatar/avatarWomenTwo.svg";
 import style from './CustomerFeedback.module.scss'
 
 

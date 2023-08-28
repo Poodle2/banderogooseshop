@@ -1,5 +1,5 @@
-import Header from "./Header";
-import HomePage from "./HomePage";
+import Header from "./header/Header";
+import HomePage from "./homePage/HomePage";
 import style from "./MainPage.module.scss"
 
 function MainPage() {

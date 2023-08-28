@@ -1,4 +1,4 @@
-import socks from "./img/socks.svg";
+import socks from "../../img/socks.svg";
 import style from './HomePage.module.scss'
 
 export default function HomePage() {

@@ -1,5 +1,5 @@
-import union from './img/union.svg'
-import style from  './ProductCart.module.scss'
+import union from '../img/union.svg'
+import style from './ProductCart.module.scss'
 export default function ProductCart(props) {
     return (
         <div className={style.ProductCart}>

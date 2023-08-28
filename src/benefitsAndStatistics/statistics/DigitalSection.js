@@ -1,4 +1,4 @@
-import NumberText from "./NumberText";
+import NumberText from "../benefits/NumberText";
 import style from './DigitalSection.module.scss'
 
 export default function DigitalSection() {

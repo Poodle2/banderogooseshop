@@ -1,5 +1,5 @@
 import style from './BrandInformation.module.scss'
-import Blocks from "./blockInformation/Blocks";
+import Blocks from "./Blocks";
 
 export default function BrandInformation() {
     return (

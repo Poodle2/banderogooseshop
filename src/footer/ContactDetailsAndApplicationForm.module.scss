@@ -1,0 +1,23 @@
+.ContactDetailsAndApplicationForm {
+  padding: 120px 0 120px 0;
+  width: 1280px;
+
+  .title {
+    text-align: center;
+    margin: 120px 0 80px 0;
+    color: var(--unnamed, #161616);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  .footerContent {
+    display: flex;
+    justify-content: start;
+  }
+
+  .contactsAndSocial {
+    flex-direction: column;
+  }
+}
