@@ -1,7 +1,7 @@
 .HomePage {
   display: flex;
   align-items: center;
-  padding:0 10px 0 120px;;
+  padding: 0 10px 0 120px;;
 
   .main {
     width: min(100% - 2rem, 574px);
@@ -42,6 +42,14 @@
       border-radius: 15px;
       background: var(--unnamed, #FF6B0A);
       box-shadow: 0 4px 4px 0 rgba(22, 22, 22, 0.15);
+      cursor: pointer;
+
+      &:hover {
+        background: lighten(#FF6B0A, 5%);
+      }
+      &:active{
+        background: darken(#FF6B0A, 5%);
+      }
     }
   }
 }

@@ -8,16 +8,26 @@
 
   .headerTopLogo {
     filter: drop-shadow(3px 3px 10px #FFFFFF);
-    margin-right: 595px;
+    margin-right: 560px;
   }
 
   .nav {
-      .navLink {
-        margin-right: 24px;
-        color: var(--unnamed, #161616);
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-      }
+    .navLink {
+      margin-right: 24px;
+      color: var(--unnamed, #161616);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+
+  .basket {
+    opacity: 1;
+    cursor: pointer;
+    color: #161616;
+
+    &:hover{
+      opacity: 0.5;
+    }
   }
 }

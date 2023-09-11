@@ -1,7 +1,7 @@
 import {FaStar} from 'react-icons/fa'
 import style from './Rating.module.scss'
 
-export default function Rating({ratingId1}) {
+export default function Rating({ratingId}) {
     return (
         <div className={style.Rating}>
             {[...Array(5)].map((star, index) => {
@@ -14,11 +14,12 @@ export default function Rating({ratingId1}) {
                             />
                             <FaStar className={style.star}
                                     size={15}
-                                    color={currentRating <= ratingId1 ? "#FFD500" : "#7F7F7F"}
+                                    color={currentRating <= ratingId ? "#FFD500" : "#7F7F7F"}
                             />
                         </label>
                     )
                 }
             )}
-        </div>)
+        </div>
+    )
 }

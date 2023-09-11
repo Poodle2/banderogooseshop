@@ -5,11 +5,22 @@
   height: 360px;
   border-radius: 20px;
   background: var(--unnamed, #ECF8FF);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.08);
+  transition: transform 0.1s ease-in-out;
+  cursor: auto;
+
+  &:hover{
+    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.20);
+    transform: translateY(-5px);
+  }
+
+
 
   .userName {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     width: min(100% - 2rem, 120px);
+    margin-left: 56px;
     color: var(--unnamed, #161616);
     text-align: center;
     font-size: 16px;

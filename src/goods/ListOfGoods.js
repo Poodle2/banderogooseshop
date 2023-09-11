@@ -1,29 +1,32 @@
 import ProductCart from "./ProductCart";
-import cartShorts from "../img/cartItem/cardShorts.svg";
-import cartSocs from "../img/cartItem/cardSocs.svg";
-import cartPhone from "../img/cartItem/cardPhone.svg";
-import cartShirt from "../img/cartItem/cardShirt.svg";
 import style from './ListOfGoods.module.scss'
+import axios from 'axios'
+import {useEffect, useState} from "react";
 
 function ListOfGoods() {
-    const productCarts = [
-        {id: 1, imgURL: cartShirt, nameProduct: "Бандерофутболка", price: '500'},
-        {id: 2, imgURL: cartShorts, nameProduct: "Бандерошорти", price: '440'},
-        {id: 3, imgURL: cartSocs, nameProduct: "Бавовняні шкарпетки", price: '50'},
-        {id: 4, imgURL: cartPhone, nameProduct: "Чохол для телефону", price: '250'}
-    ]
+    const [productCarts, setProductCarts] = useState([])
+    const [itemsDrawer, setItemsDrawer] = useState([])
+
+    useEffect(() => {
+        axios.get('https://64f461ac932537f4051a50ab.mockapi.io/items')
+            .then(res => setProductCarts(res.data))
+    }, [])
+
+    const onAddToCartDrawer = (obj) => {
+        axios.post('https://64ff4975f8b9eeca9e29f2b8.mockapi.io/itemDrawer',obj);
+        setItemsDrawer((prev) => [...prev, obj])
+    }
 
     return (
         <div className={style.ListOfGoods}>
-            {
-                productCarts.map(productCart =>
-                    <ProductCart
-                        image={productCart.imgURL}
-                        nameProduct={productCart.nameProduct}
-                        price={productCart.price}
-                        key={productCart.id}/>
-                )
-            }
+            {productCarts.map(productCart =>
+                <ProductCart
+                    onClickAddItemToDrawer={(obj) => onAddToCartDrawer(obj)}
+                    image={productCart.img}
+                    nameProduct={productCart.nameProduct}
+                    price={productCart.price}
+                    key={productCart.id}/>
+            )}
         </div>
     )
 }

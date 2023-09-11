@@ -37,9 +37,12 @@
     width: 360px;
     height: 56px;
     flex-shrink: 0;
+    padding-left: 20px;
+    text-align: left;
   }
 
   .buttonApplicationForm {
+    cursor: pointer;
     margin-top: 32px;
     width: 150px;
     height: 32px;
