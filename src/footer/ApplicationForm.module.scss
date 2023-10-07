@@ -1,10 +1,10 @@
 .ApplicationForm {
-  margin: 0 72px 0 120px;
+  margin-right: 120px;
   display: flex;
   justify-items: flex-end;
   flex-direction: column;
   width: min(100% - 2rem, 573px);
-  height: 495px;
+  height: 100%;
 
   h3 {
     color: var(--unnamed, #161616);
@@ -24,6 +24,7 @@
   }
 
   .numberAndName {
+    padding: 10px 5px;
     border-radius: 20px;
     border: 1.5px solid var(--unnamed, #0084FE);
     width: 360px;
@@ -35,9 +36,9 @@
     border-radius: 20px;
     border: 1.5px solid var(--unnamed, #0084FE);
     width: 360px;
-    height: 56px;
+    height: 120px;
     flex-shrink: 0;
-    padding-left: 20px;
+    padding: 10px 5px;
     text-align: left;
   }
 

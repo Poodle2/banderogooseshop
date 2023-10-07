@@ -6,14 +6,14 @@ export default function Contacts() {
     return (
         <address className={style.Contacts}>
             <h3 className={style.contactTitle}>Контактна інформация</h3>
-            <div>
+            <>
                 <p className={style.contactsText}>Телефон:
                     <a className={style.contactsData} href='tel:+380000000000'>+380 00 000 00 00</a></p>
                 <p className={style.contactsText}>Пошта:
                     <a className={style.contactsData} href='mailto:banderogus@email.com'>banderogus@email.com</a></p>
                 <p className={style.contactsText}>Адреса:
                     <a className={style.contactsData} href={addressMap} type='_blank'>Київ, м-н Незалежності, 16</a></p>
-            </div>
+            </>
         </address>
     )
 }
