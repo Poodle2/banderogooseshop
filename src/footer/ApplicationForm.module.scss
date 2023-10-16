@@ -19,12 +19,12 @@
     color: var(--unnamed, #161616);
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 140%; /* 22.4px */
   }
 
   .numberAndName {
-    padding: 10px 5px;
+    padding: 10px 10px;
     border-radius: 20px;
     border: 1.5px solid var(--unnamed, #0084FE);
     width: 360px;
@@ -33,13 +33,14 @@
   }
 
   .commentOnTheOrder {
+    resize: none;
+    overflow: hidden;
     border-radius: 20px;
     border: 1.5px solid var(--unnamed, #0084FE);
     width: 360px;
     height: 120px;
     flex-shrink: 0;
-    padding: 10px 5px;
-    text-align: left;
+    padding: 10px 10px;
   }
 
   .buttonApplicationForm {

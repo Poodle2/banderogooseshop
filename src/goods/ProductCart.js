@@ -1,18 +1,23 @@
+import ContentLoader from "react-content-loader"
+import {useContext} from "react";
+import {AppContext} from "../App";
+
+
 import union from '../img/union.svg'
 import style from './ProductCart.module.scss'
-import ContentLoader from "react-content-loader"
 
 export default function ProductCart(
     {
         image,
         price,
         nameProduct,
-        onClickAddItemToDrawer,
         loading
     }) {
 
+    const {addToDrawer} = useContext(AppContext)
+
     const onClickToOrder = () => {
-        onClickAddItemToDrawer({image, price, nameProduct})
+        addToDrawer({image, price, nameProduct})
     }
 
     return (

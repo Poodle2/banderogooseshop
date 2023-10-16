@@ -20,7 +20,7 @@
     text-align: left;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 20px; /* 100% */
     margin-bottom: 18px;
   }
@@ -29,7 +29,7 @@
     text-align: left;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 20px; /* 100% */
   }
 
@@ -39,14 +39,28 @@
     margin: 0 24px 0 8px;
   }
 
-  .remove {
-    color: #161616;
+  .buttons {
+    display: flex;
     margin-left: 46px;
-    opacity: 1;
-    cursor: pointer;
+    flex-direction: column;
 
-    &:hover {
-      opacity: 0.7;
+    .plus {
+      opacity: 1;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    .remove {
+      margin-top: 14px;
+      opacity: 1;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.7;
+      }
     }
   }
 }
