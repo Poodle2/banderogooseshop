@@ -8,7 +8,7 @@ const Header = ({itemsSize, onClickOpenDrawer}) => {
     return (
         <header className={style.header}>
             <div className={style.headerTop}>
-                <img className={style.headerTopLogo} src={logo} alt='logo' width={110} height={36}/>
+                <a href='src/#' className={style.headerTopLogo}><img src={logo} alt='logo' width={110} height={36}/></a>
                 <nav className={style.nav}>
                     <a href='src/header#advantage' className={style.navLink}>Переваги</a>
                     <a href='src/header#brandInformation' className={style.navLink}>Про товар</a>
