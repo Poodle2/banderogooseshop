@@ -1,0 +1,132 @@
+.footer {
+  padding: 120px 0 120px 0;
+  width: 100%;
+  height: 100%;
+
+  .footerTitle {
+    text-align: center;
+    margin: 80px 0 80px 0;
+    color: var(--unnamed, #161616);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  .footerContent {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contacts {
+    flex-direction: column;
+  }
+  .applicationForm {
+    margin-right: 120px;
+    display: flex;
+    justify-items: flex-end;
+    flex-direction: column;
+    width: min(100% - 2rem, 573px);
+    height: 100%;
+
+    h3 {
+      color: var(--unnamed, #161616);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 33.6px */
+    }
+
+    label {
+      margin: 32px 0 7px 0;
+      color: var(--unnamed, #161616);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 22.4px */
+    }
+
+    .applicationInput {
+      padding: 10px 10px;
+      border-radius: 20px;
+      border: 1.5px solid var(--unnamed, #0084FE);
+      width: 360px;
+      height: 36px;
+      flex-shrink: 0;
+    }
+
+    .applicationTextarea {
+      resize: none;
+      overflow: hidden;
+      border-radius: 20px;
+      border: 1.5px solid var(--unnamed, #0084FE);
+      width: 360px;
+      height: 120px;
+      flex-shrink: 0;
+      padding: 10px 10px;
+    }
+
+    .buttonApplicationForm {
+      cursor: pointer;
+      margin-top: 32px;
+      width: 150px;
+      height: 32px;
+      border: none;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+      background: var(--unnamed, #0084FE);
+      color: var(--unnamed, #FFF);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px; /* 125% */
+    }
+  }
+  .contacts {
+    font-style: normal;
+
+    .contactTitle {
+      text-align: left;
+      color: var(--unnamed, #161616);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 33.6px */
+      margin-bottom: 24px;
+    }
+
+    .contactsText {
+      text-align: left;
+      margin-bottom: 12px;
+      color: var(--unnamed, #161616);
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px; /* 125% */
+    }
+
+    .contactsData {
+      color: var(--unnamed, #161616);
+      text-decoration: none;
+    }
+
+    .contactsText:last-child {
+      margin-bottom: 52px;
+    }
+  }
+  .sectionTitle {
+    text-align: start;
+    margin-bottom: 12px;
+    color: var(--unnamed, #161616);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 33.6px */
+  }
+
+  .sectionLink {
+    fill: #161616;
+    margin-right: 16px;
+  }
+}

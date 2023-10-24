@@ -1,0 +1,101 @@
+.DigitalSection {
+  width: 100%;
+  padding-top: 80px;
+  background: var(--unnamed, #FFF);
+  color: var(--unnamed, #161616);
+
+  .digitalTitle {
+    color: var(--unnamed, #161616);
+    padding-bottom: 32px;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .digitalSubtitle {
+    text-align: center;
+    color: var(--unnamed, #161616);
+    padding-bottom: 70px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .digital {
+    display: flex;
+    justify-content: center;
+
+    .digitalNumberText {
+      display: flex;
+      justify-content: center;
+
+      .digitalBlocks {
+        margin-right: 20px;
+
+        .digitalNumber {
+          padding-bottom: 12px;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 500;
+          text-align: center;
+        }
+
+        .digitalText {
+          text-align: center;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.advantagesSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+
+  .tShirt {
+    padding-right: 100px;
+  }
+
+  .advantages {
+    width: min(100% - 2rem, 450px);
+
+    .advantagesTitle {
+      text-align: left;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+    }
+
+    .listOfBenefits {
+      margin-top: 40px;
+
+      .pointsName {
+        text-align: left;
+        color: var(--unnamed, #161616);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        padding-bottom: 20px;
+      }
+
+      p {
+        text-align: left;
+        color: var(--unnamed, #161616);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+      }
+
+      .listOfBenefitsImage {
+        margin: 8px 12px 0 0;
+      }
+    }
+  }
+}

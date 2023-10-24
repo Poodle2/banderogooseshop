@@ -1,0 +1,18 @@
+.DepartmentOfGoods {
+  width: 100%;
+  background: linear-gradient(180deg, #81C2F0 0%, #FFFDFD 100%);
+
+  .goodsTitle {
+    padding: 100px 0 40px 0;
+    color: var(--unnamed, #161616);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+  .listOfGoods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
