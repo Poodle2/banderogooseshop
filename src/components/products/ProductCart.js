@@ -21,7 +21,7 @@ export default function ProductCart(
     }
 
     return (
-        <div className={style.ProductCart}>
+        <div className={style.productCart}>
             {loading ? <ContentLoader
                 speed={2}
                 width={260}
@@ -38,13 +38,13 @@ export default function ProductCart(
                 <rect x="48" y="305" rx="10" ry="10" width="145" height="32"/>
             </ContentLoader> : <>
                 <img src={image} alt='product' width={130} height={135}/>
-                <h3 className={style.nameProduct}>{nameProduct}</h3>
-                <div className={style.size}>
-                    <p className={style.sizeText}>Розмір</p>
-                    <button className={style.sizeButton}><img className='union' src={union} alt={union}/>s</button>
+                <h3 className={style.productName}>{nameProduct}</h3>
+                <div className={style.productSize}>
+                    <p className={style.productSizeText}>Розмір</p>
+                    <button className={style.productSizeBtn}><img className='union' src={union} alt={union}/>s</button>
                 </div>
-                <h3 className={style.price}>{price} ₴</h3>
-                <button onClick={onClickToOrder} className={style.buttonOrder}>Замовити</button>
+                <h3 className={style.productPrice}>{price} ₴</h3>
+                <button onClick={onClickToOrder} className={style.productOrderBtn}>Замовити</button>
             </>
             }
         </div>

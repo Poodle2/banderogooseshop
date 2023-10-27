@@ -1,4 +1,4 @@
-import style from './goods.module.scss'
+import style from './products.module.scss'
 import ProductCart from "./ProductCart";
 import axios from 'axios'
 import {useEffect, useState} from "react";
@@ -7,7 +7,8 @@ import cardPhone from '../../img/cartItem/cardPhone.svg'
 import cardShirt from '../../img/cartItem/cardShirt.svg'
 import cardShorts from '../../img/cartItem/cardShorts.svg'
 import cardSocs from '../../img/cartItem/cardSocs.svg'
- const Goods = () => {
+
+const Products = () => {
     const [productCarts, setProductCarts] = useState([])
     const [isLoading, setIsLoading] = useState(true)
 
@@ -24,9 +25,9 @@ import cardSocs from '../../img/cartItem/cardSocs.svg'
 
 
     return (
-        <div id='goods' className={style.DepartmentOfGoods}>
-            <h2 className={style.goodsTitle}>Обери товар</h2>
-            <div className={style.listOfGoods}>
+        <div id="products" className={style.products}>
+            <h2 className={style.productsTitle}>Обери товар</h2>
+            <div className={style.productsList}>
                 {productCarts.map(productCart =>
                     <ProductCart
                         image={productCart.img}
@@ -39,4 +40,4 @@ import cardSocs from '../../img/cartItem/cardSocs.svg'
     )
 }
 
-export {Goods}
+export {Products}

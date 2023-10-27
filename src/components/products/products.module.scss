@@ -1,8 +1,8 @@
-.DepartmentOfGoods {
+.products {
   width: 100%;
   background: linear-gradient(180deg, #81C2F0 0%, #FFFDFD 100%);
 
-  .goodsTitle {
+  .productsTitle {
     padding: 100px 0 40px 0;
     color: var(--unnamed, #161616);
     font-size: 34px;
@@ -10,7 +10,7 @@
     font-weight: 700;
     text-align: center;
   }
-  .listOfGoods {
+  .productsList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
