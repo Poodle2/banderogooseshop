@@ -1,10 +1,9 @@
-.BrandInformation {
+.information {
   width: 100%;
   background: linear-gradient(360deg, #81C2F0 0%, #FFF 100%);
   padding-bottom: 10px;
   display: flex;
   justify-content: center;
-
 
   h2 {
     text-align: center;
@@ -15,11 +14,11 @@
     font-weight: 700;
   }
 
-  .blocks {
+  .informationBlocks {
     display: flex;
     flex-direction: column;
 
-    .donatesBlock {
+    .informationDonate {
       display: flex;
       justify-content: space-between;
       border-radius: 20px;
@@ -27,14 +26,14 @@
       box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
       width: 1170px;
 
-      .flag {
+      .informationFlag {
         display: flex;
         justify-content: left;
         padding-left: 44px;
         margin-top: -91px;
       }
 
-      .textBlock {
+      .informationDesc {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -59,7 +58,7 @@
       }
     }
 
-    .stylesBlock{
+    .informationStyles{
       margin: 90px 0 0 0;
       display: flex;
       justify-content: space-between;
@@ -68,19 +67,18 @@
       box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
       width: 1170px;
 
-      .people {
+      .informationPeople {
         margin-top: -26px;
         display: flex;
         justify-content: right;
       }
 
-      .textBlock {
+      .informationDesc {
         display: flex;
         justify-content: center;
         flex-direction: column;
         margin-left: 100px;
         width: min(100% - 2rem, 498px);
-
       }
 
       h3 {
