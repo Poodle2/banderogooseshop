@@ -3,9 +3,9 @@ import axios from "axios";
 
 import {AppContext} from "../../App";
 import {ItemDrawer} from "./ItemDrawer";
-import {Info} from './Info'
+import {InfoDrawer} from './InfoDrawer'
 
-import style from './drawer.module.scss'
+import style from './Drawer.module.scss'
 import close from '../../img/close.png'
 import emptyBasketGoose from '../../img/emptyBasketGoose.svg'
 import orderComplete from '../../img/orderComplete.svg'
@@ -49,13 +49,13 @@ const Drawer = ({onClickCloseDrawer}) => {
     return (
         <div className={style.overlay}>
             <div className={style.drawer}>
-                <div className={style.navDrawer}>
+                <div className={style.drawerNav}>
                     <h2>Кошик</h2>
-                    <img alt='close' src={close} width={8} height={8} className={style.closeDrawer}
+                    <img alt='close' src={close} width={8} height={8} className={style.drawerClose}
                          onClick={onClickCloseDrawer}/>
                 </div>
                 {cartItems.length >= 1 ? <>
-                        <div className={style.content}>
+                        <div className={style.drawerItems}>
                             {cartItems.map(cartItem =>
                                 <ItemDrawer key={cartItem.id}
                                             price={cartItem.price}
@@ -64,19 +64,16 @@ const Drawer = ({onClickCloseDrawer}) => {
                                             onClickRemoveItem={() => onRemoveItem(cartItem.id)}
                                 />)}
                         </div>
-                        <div>
-                            <p className={style.totalPrice}>Загальна вартість: {totalPrice} грн</p>
-                        </div>
-
-                        <div className={style.basket}>
-                            <button className={style.buttonOrder}
+                        <div className={style.drawerBottomNav}>
+                            <p className={style.drawerTotalPrice}>Загальна вартість: {totalPrice} грн</p>
+                            <button className={style.drawerOrderBtn}
                                     onClick={() => addToPurchasedGoods(cartItems)}
                             >Оформити замовлення
                             </button>
                         </div>
                     </>
                     :
-                    <Info closeDrawer={onClickCloseDrawer} img={isOrderComplete ? orderComplete : emptyBasketGoose}/>
+                    <InfoDrawer closeDrawer={onClickCloseDrawer} img={isOrderComplete ? orderComplete : emptyBasketGoose}/>
                 }
             </div>
         </div>

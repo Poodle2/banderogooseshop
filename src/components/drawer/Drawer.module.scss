@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
 
-    .navDrawer {
+    .drawerNav {
       margin-top: 12px;
       margin-bottom: 44px;
       display: flex;
@@ -38,7 +38,7 @@
         line-height: 48px; /* 141.176% */
       }
 
-      .closeDrawer {
+      .drawerClose {
         cursor: pointer;
         margin-top: -2px;
         width: 24px;
@@ -51,7 +51,7 @@
       }
     }
 
-    .totalPrice{
+    .drawerTotalPrice{
       color: #161616;
       margin: 20px 10px;
       text-align: center;
@@ -61,14 +61,15 @@
       line-height: 20px; /* 100% */
     }
 
-    .basket {
+    .drawerBottomNav {
       color: #161616;
-      margin: 12px 0 40px 0;
+      margin: 24px 0 40px 0;
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
       justify-content: flex-start;
 
-      .buttonOrder {
+      .drawerOrderBtn {
+        width: 280px;
         padding: 0 32px 0 32px;
         border: none;
         cursor: pointer;
@@ -92,28 +93,9 @@
       }
     }
 
-    .content {
+    .drawerItems {
       overflow: auto;
-      height: auto;
-    }
-
-    .image{
-      margin: 130px 0 140px 0;
-    }
-
-    .buttonBack{
-      padding: 0 32px 0 32px;
-      border: none;
-      cursor: pointer;
-      border-radius: 20px;
-      background: #0084FE;
-      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-      color: #FFF;
-      text-align: center;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 40px; /* 200% */
+      height: 550px;
     }
   }
 }

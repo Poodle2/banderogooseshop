@@ -7,8 +7,8 @@ import truzyb from "../../img/advantagesIcons/truzyb.svg";
 
 const BenefitsAndStatistics = () => {
     return (
-        <>
-            <div className={style.DigitalSection}>
+        <section>
+            <div className={style.digitalSection}>
                 <h2 className={style.digitalTitle}>Робимо українців хеппі</h2>
                 <p className={style.digitalSubtitle}>Трохи статистики, чисто щоб похвалитися</p>
                 <div className={style.digital}>
@@ -62,7 +62,7 @@ const BenefitsAndStatistics = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     )
 }
 export {BenefitsAndStatistics}

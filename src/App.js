@@ -1,13 +1,14 @@
 import {createContext, useEffect, useState} from "react";
 import axios from "axios";
 
-import {Header} from "./components/header";
-import {Drawer} from "./components/drawer";
-import {Content} from "./interface/Content";
-import {Footer} from "./components/footer";
+import {Header} from "./components/header/Header";
+import {Drawer} from "./components/drawer/Drawer";
+import {Content} from "./content/Content";
+import {Footer} from "./components/footer/Footer";
 
 export const AppContext = createContext({})
 export default function App() {
+
     const [cartOpenedDrawer, setCartOpenedDrawer] = useState(false)
     const [counterProductToDrawer, setCounterProductToDrawer] = useState(0)
     const [cartItems, setCartItems] = useState([])

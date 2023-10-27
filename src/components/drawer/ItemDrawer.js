@@ -15,15 +15,15 @@ const ItemDrawer = ({image, price, nameProduct, onClickRemoveItem}) => {
 
     return (
         <div className={style.itemDrawer}>
-            <img className={style.imgProduct} src={image} alt='product'/>
-            <div className={style.priceAndNameProduct}>
+            <img className={style.itemDrawerImg} src={image} alt='product'/>
+            <div className={style.itemDrawerNamePrice}>
                 <p>{nameProduct}</p>
                 <b>Ціна: {price} грн</b>
             </div>
-            <div className={style.buttons}>
-                <img className={style.plus} src={plus} width={16}
+            <div className={style.itemDrawerBtn}>
+                <img className={style.plusBtn} src={plus} width={16}
                      height={16} alt='plus' onClick={onClickToOrder}/>
-                <img className={style.remove} src={closeRed} alt='remove'
+                <img className={style.removeBtn} src={closeRed} alt='remove'
                      width={16} height={16} onClick={onClickRemoveItem}
                 />
             </div>

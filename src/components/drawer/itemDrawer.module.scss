@@ -10,7 +10,7 @@
   align-items: center;
   padding: 12px;
 
-  .priceAndNameProduct {
+  .itemDrawerNamePrice {
     color: #161616;
     width: 110px;
     margin-right: 24px;
@@ -33,18 +33,18 @@
     line-height: 20px; /* 100% */
   }
 
-  .imgProduct {
+  .itemDrawerImg {
     width: 80px;
     height: auto;
     margin: 0 24px 0 8px;
   }
 
-  .buttons {
+  .itemDrawerBtn {
     display: flex;
     margin-left: 46px;
     flex-direction: column;
 
-    .plus {
+    .plusBtn {
       opacity: 1;
       cursor: pointer;
 
@@ -53,7 +53,7 @@
       }
     }
 
-    .remove {
+    .removeBtn {
       margin-top: 14px;
       opacity: 1;
       cursor: pointer;
