@@ -1,7 +1,7 @@
 import {FaStar} from 'react-icons/fa'
-import style from './rating.module.scss'
+import style from './respondRating.module.scss'
 
-export default function Rating({ratingId}) {
+export default function RespondRating({ratingId}) {
     return (
         <div className={style.Rating}>
             {[...Array(5)].map((star, index) => {

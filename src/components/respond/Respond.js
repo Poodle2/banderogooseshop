@@ -1,4 +1,4 @@
-import FeedbackCart from "./FeedbackCart";
+import RespondCart from "./RespondCart";
 import {useEffect, useState} from "react";
 import axios from "axios";
 import avatarMenOne from '../../img/avatar/avatarMenOne.svg'
@@ -24,11 +24,11 @@ function Respond() {
             <h3 className={style.respondTitle}>Відгуки</h3>
             <div className={style.customerFeedback}>
                 {usersComments.map(userComment =>
-                    <FeedbackCart image={userComment.avatar}
-                                  name={userComment.userName}
-                                  text={userComment.commentMessage}
-                                  ratingId={userComment.ratingId}
-                                  key={userComment.commentId}
+                    <RespondCart image={userComment.avatar}
+                                 name={userComment.userName}
+                                 text={userComment.commentMessage}
+                                 ratingId={userComment.ratingId}
+                                 key={userComment.commentId}
                     />)}
             </div>
         </div>
