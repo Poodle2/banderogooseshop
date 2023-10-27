@@ -1,16 +1,16 @@
-.HomePage {
+.promo {
   width: 100%;
-  height: 800px;
-  background: linear-gradient(134deg, #DDF2FF 0%, #7FC1F0 100%);
+  height: 712px;
+  background: linear-gradient(180deg, #DCF2FF 0%, #7FC1F0 115.19%);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 10px 0 120px;;
 
-  .main {
+  .promoMain {
     width: min(100% - 2rem, 574px);
 
-    .mainSubtitle {
+    .promoSubtitle {
       color: var(--unnamed, #161616);
       font-size: 22px;
       font-style: normal;
@@ -18,7 +18,7 @@
       text-align: left;
     }
 
-    .mainTitle {
+    .promoTitle {
       color: var(--unnamed, #161616);
       font-size: 48px;
       font-style: normal;
@@ -35,7 +35,7 @@
       font-weight: 400;
     }
 
-    .homeButton {
+    .promoBtn {
       height: 48px;
       padding: 0 32px;
       align-items: center;
