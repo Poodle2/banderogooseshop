@@ -1,7 +1,7 @@
-import socks from "../../img/socks.svg";
-import style from './promo.module.scss'
+import socks from "../../assets/image/socks.svg";
+import style from './homePage.module.scss'
 
-const Promo = () => {
+const HomePage = () => {
     return (
         <section className={style.promo}>
             <div className={style.promoMain}>
@@ -16,4 +16,4 @@ const Promo = () => {
     )
 }
 
-export {Promo}
+export {HomePage}

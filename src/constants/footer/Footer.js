@@ -17,7 +17,7 @@ import {FaFacebook, FaInstagram, FaTwitter, FaYoutube} from "react-icons/fa6";
                     <label htmlFor='commentOnTheOrder'>Ваш коментар до замовлення</label>
                     <textarea className={style.applicationTextarea} name='commentOnTheOrder' id='commentOnTheOrder'
                               rows="3" cols="20"></textarea>
-                    <button className={style.buttonApplicationForm}>Відправити</button>
+                    <button className={style.applicationFormBtn}>Відправити</button>
                 </form>
                 <div>
                     <address className={style.contacts}>

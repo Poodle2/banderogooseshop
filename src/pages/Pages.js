@@ -1,13 +1,13 @@
-import {Promo} from "./promo/Promo";
+import {HomePage} from "./homePage/HomePage";
 import {BenefitsAndStatistics} from "./benefitsAndStatistics/BenefitsAndStatistics";
 import {Information} from "./information/Information";
-import {Products} from "../components/products/Products";
-import {Respond} from "../components/respond/Respond";
+import {Products} from "../constants/products/Products";
+import {Respond} from "../constants/respond/Respond";
 
-const Content = () => {
+const Pages = () => {
     return (
         <>
-            <Promo/>
+            <HomePage/>
             <BenefitsAndStatistics/>
             <Information/>
             <Products/>
@@ -16,4 +16,4 @@ const Content = () => {
     )
 }
 
-export {Content}
+export {Pages}

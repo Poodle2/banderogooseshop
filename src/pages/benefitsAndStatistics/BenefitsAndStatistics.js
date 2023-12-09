@@ -1,9 +1,9 @@
 import style from "./benefitsAndStatistics.module.scss";
-import tShirt from "../../img/shirt.svg";
-import bavovna from "../../img/advantagesIcons/bavovna.svg";
-import goose from "../../img/advantagesIcons/goose.svg";
-import roket from "../../img/advantagesIcons/roket.svg";
-import truzyb from "../../img/advantagesIcons/truzyb.svg";
+import tShirt from "../../assets/image/shirt.svg";
+import bavovna from "../../assets/image/advantagesIcons/bavovna.svg";
+import goose from "../../assets/image/advantagesIcons/goose.svg";
+import roket from "../../assets/image/advantagesIcons/roket.svg";
+import truzyb from "../../assets/image/advantagesIcons/truzyb.svg";
 
 const BenefitsAndStatistics = () => {
     return (

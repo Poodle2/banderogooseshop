@@ -8,13 +8,13 @@
     align-items: center;
   }
 
-  .headerTopLogo {
+  .headerLogo {
     filter: drop-shadow(3px 3px 10px #FFFFFF);
     margin-right: auto;
   }
 
   .headerNav {
-    .navLink {
+    .headerNavLink {
       margin-right: 20px;
       color: var(--unnamed, #161616);
       font-size: 18px;
@@ -31,12 +31,11 @@
     }
   }
 
-  .pannier {
-
+  .headerBasketBtn {
     display: flex;
     align-content: center;
     justify-content: center;
-    width: 52px;
+    width: min(100% - 2rem, 60px);
     color: var(--unnamed, #161616);
     border-radius: 15px;
     background: var(--unnamed, #ECF8FF);
@@ -45,15 +44,11 @@
     opacity: 1;
     padding: 5px 5px ;
 
-    .drawerBottomNav {
-      margin: 3px 2px 0 0;
-
-      &:hover {
-        opacity: 0.8;
-      }
+    .headerIcons{
+      margin: 2px 2px 0 0 ;
     }
 
-    .counter {
+    .headerCounter {
       margin-top: 3px;
       text-align: center;
       font-size: 16px;

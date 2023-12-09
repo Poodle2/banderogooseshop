@@ -1,6 +1,6 @@
 import style from './information.module.scss'
-import flag from "../../img/information/flag.svg";
-import people from "../../img/information/people.svg";
+import flag from "../../assets/image/information/flag.svg";
+import people from "../../assets/image/information/people.svg";
 
 const Information = () => {
     return (

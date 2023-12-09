@@ -5,10 +5,10 @@ import {AppContext} from "../../App";
 import {ItemDrawer} from "./ItemDrawer";
 import {InfoDrawer} from './InfoDrawer'
 
-import style from './Drawer.module.scss'
-import close from '../../img/close.png'
-import emptyBasketGoose from '../../img/emptyBasketGoose.svg'
-import orderComplete from '../../img/orderComplete.svg'
+import style from './drawer.module.scss'
+import close from '../../assets/image/close.png'
+import emptyBasketGoose from '../../assets/image/emptyBasketGoose.svg'
+import orderComplete from '../../assets/image/orderComplete.svg'
 
 const Drawer = ({onClickCloseDrawer}) => {
     const [isOrderComplete, setIsOrderComplete] = useState(false)
@@ -73,7 +73,8 @@ const Drawer = ({onClickCloseDrawer}) => {
                         </div>
                     </>
                     :
-                    <InfoDrawer closeDrawer={onClickCloseDrawer} img={isOrderComplete ? orderComplete : emptyBasketGoose}/>
+                    <InfoDrawer closeDrawer={onClickCloseDrawer}
+                                img={isOrderComplete ? orderComplete : emptyBasketGoose}/>
                 }
             </div>
         </div>

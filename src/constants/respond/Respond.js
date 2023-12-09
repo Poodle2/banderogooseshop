@@ -1,10 +1,10 @@
 import RespondCart from "./RespondCart";
 import {useEffect, useState} from "react";
 import axios from "axios";
-import avatarMenOne from '../../img/avatar/avatarMenOne.svg'
-import avatarMenTwo from '../../img/avatar/avatarMenTwo.svg'
-import avatarWomenOne from '../../img/avatar/avatarWomenOne.svg'
-import avatarWomenTwo from '../../img/avatar/avatarWomenTwo.svg'
+import avatarMenOne from '../../assets/image/avatar/avatarMenOne.svg'
+import avatarMenTwo from '../../assets/image/avatar/avatarMenTwo.svg'
+import avatarWomenOne from '../../assets/image/avatar/avatarWomenOne.svg'
+import avatarWomenTwo from '../../assets/image/avatar/avatarWomenTwo.svg'
 
 import style from './respond.module.scss'
 

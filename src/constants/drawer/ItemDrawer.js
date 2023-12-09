@@ -1,8 +1,8 @@
 import {AppContext} from "../../App";
 import {useContext} from "react";
 
-import closeRed from "../../img/closeRed.svg";
-import plus from '../../img/plus.svg'
+import closeRed from "../../assets/image/closeRed.svg";
+import plus from '../../assets/image/plus.svg'
 import style from './itemDrawer.module.scss'
 
 const ItemDrawer = ({image, price, nameProduct, onClickRemoveItem}) => {
